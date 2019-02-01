@@ -1,0 +1,49 @@
+baseurl: /design-principles-guide
+markdown: redcarpet
+name: Design Principles Guide
+exclude:
+- go
+- copy-template
+- Gemfile
+- Gemfile.lock
+- README.md
+- LICENSE.md
+
+permalink: pretty
+
+# Author/Organization info to be displayed in the templates
+author:
+  name: 18F
+  url: https://18f.gsa.gov
+
+# Point the logo URL at a file in your repo or hosted elsewhere by your organization
+logourl: /assets/img/18f-logo.png
+logoalt: 18F logo
+
+# Navigation
+# List links that should appear in the site sidebar here
+navigation:
+- text: Home
+  url: index.html
+  internal: true
+- text: Define
+  url: define/
+  internal: true
+- text: Create
+  url: create/
+  internal: true
+- text: Usage
+  url: usage/
+  internal: true
+- text: Resources
+  url: resources/
+  internal: true
+repos:
+- name: Design Principles Guide
+  description: Main repository
+  url: https://github.com/18F/design-principles-guide
+
+# Style Variables
+brand_color: "#1188ff"
+
+google_analytics_ua: UA-48605964-19
